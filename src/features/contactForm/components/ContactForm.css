@@ -1,0 +1,81 @@
+.newsletter-container {
+  background: #e6f0fa;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.newsletter-content h2 {
+  font-size: 28px;
+  margin: 0 0 10px;
+  color: #000;
+}
+
+.newsletter-content .highlight {
+  color: #f5a623;
+}
+
+.newsletter-content p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.newsletter-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+label {
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.submit-btn {
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #333;
+}
+
+/* Optional: Add decorative leaf image if needed */
+.newsletter-container::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: url('path-to-leaf-image.png') no-repeat;
+  background-size: contain;
+}
